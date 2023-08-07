@@ -1,2 +1,2 @@
 #!/bin/bash 
-cat /etc/ssh/sshd_config | grep -e '^[a,A]'
+grep /etc/ssh/sshd_config -e '^[a,A]'
